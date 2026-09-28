@@ -70,7 +70,7 @@
     <path d="M226,84 L204,110 L226,136"><animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/></path>
     <g><animate attributeName="opacity" values="0.35;1;0.35" dur="2s" repeatCount="indefinite"/>
     <path d="M772,140 L790,80"/><path d="M800,84 L822,110 L800,136"/></g>
-  </g>[README (3).md](https://github.com/user-attachments/files/32730517/README.3.md)
+  
 
 
   <!-- name -->
