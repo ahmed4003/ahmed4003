@@ -124,7 +124,7 @@
   <rect x="290" y="182" width="420" height="3" rx="1.5" fill="url(#strip)" opacity="0.9"/>
   <circle r="4" cy="183.5" fill="#ffffff" filter="url(#tglow)">
     <animate attributeName="cx" values="290;710;290" dur="3.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
-  </circle>
+  
 
   <text x="500" y="234" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" fill="#d8c4f5" letter-spacing="5">
 
