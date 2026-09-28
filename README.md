@@ -127,10 +127,7 @@
   </circle>
 
   <text x="500" y="234" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" fill="#d8c4f5" letter-spacing="5">
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="3.5s" repeatCount="indefinite"/>Build • Learn • Create</text>
-</svg>
-<p align="center">
-  <img src="banner-3d.svg" alt="AHMED" width="100%"/>
+   
 </p>
 
 <h1 align="center">Ahmed Mubaraki</h1>
