@@ -127,7 +127,6 @@
   </circle>
 
   <text x="500" y="234" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" fill="#d8c4f5" letter-spacing="5">
-   
 
 <h1 align="center">Ahmed Mubaraki</h1>
 
