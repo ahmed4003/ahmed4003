@@ -15,38 +15,6 @@
     <radialGradient id="haloW"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.85"/><stop offset="45%" stop-color="#e9d5ff" stop-opacity="0.35"/><stop offset="100%" stop-color="#e9d5ff" stop-opacity="0"/></radialGradient>
     <radialGradient id="haloP"><stop offset="0%" stop-color="#c084fc" stop-opacity="0.9"/><stop offset="45%" stop-color="#9333ea" stop-opacity="0.4"/><stop offset="100%" stop-color="#9333ea" stop-opacity="0"/></radialGradient>
 
-    <!-- shimmer: white/purple wave sweeping through the letters -->
-    <linearGradient id="shimmer" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="420" y2="0" spreadMethod="repeat">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="25%" stop-color="#e9d5ff"/>
-      <stop offset="50%" stop-color="#a855f7"/>
-      <stop offset="75%" stop-color="#e9d5ff"/>
-      <stop offset="100%" stop-color="#ffffff"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="420 0" dur="4s" repeatCount="indefinite"/>
-    </linearGradient>
-
-    <linearGradient id="strip" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#a855f7" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="mtnBack" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#3b1d6e"/><stop offset="100%" stop-color="#1a0d35"/></linearGradient>
-    <linearGradient id="mtnFront" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#1c0f38"/><stop offset="100%" stop-color="#0a0516"/></linearGradient>
-
-    <path id="gA" d="M0,100 L28,0 L52,0 L80,100 L58,100 L52.4,80 L27.6,80 L22,100 Z M40,35.7 L46.8,60 L33.2,60 Z" fill-rule="evenodd"/><path id="gH" d="M0,0 L22,0 L22,39 L58,39 L58,0 L80,0 L80,100 L58,100 L58,61 L22,61 L22,100 L0,100 Z" fill-rule="evenodd"/><path id="gM" d="M0,100 L0,0 L24,0 L40,44 L56,0 L80,0 L80,100 L58,100 L58,46 L46,78 L34,78 L22,46 L22,100 Z" fill-rule="evenodd"/><path id="gE" d="M0,0 L80,0 L80,21 L22,21 L22,39 L66,39 L66,61 L22,61 L22,79 L80,79 L80,100 L0,100 Z" fill-rule="evenodd"/><path id="gD" d="M0,0 L42,0 C70,0 80,18 80,40 L80,60 C80,82 70,100 42,100 L0,100 Z M22,21 L40,21 C54,21 58,30 58,42 L58,58 C58,70 54,79 40,79 L22,79 Z" fill-rule="evenodd"/>
-    <clipPath id="cA"><use xlink:href="#gA"/></clipPath><clipPath id="cH"><use xlink:href="#gH"/></clipPath><clipPath id="cM"><use xlink:href="#gM"/></clipPath><clipPath id="cE"><use xlink:href="#gE"/></clipPath><clipPath id="cD"><use xlink:href="#gD"/></clipPath>
-    <clipPath id="card"><rect width="1000" height="280" rx="26"/></clipPath>
-    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.38"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
-    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#160a2e"/><stop offset="100%" stop-color="#07030f"/></linearGradient>
-    <filter id="neon" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="9"/>
-    </filter>
-    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="5"/>
-    </filter>
-    <filter id="tglow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
   <g clip-path="url(#card)">
